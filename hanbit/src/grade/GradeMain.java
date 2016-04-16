@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class GradeMain {
 	/**
 	 * 과목별 점수를 입력하여, 학점을 구하는 프로그램
+	 * 
 	 */
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
