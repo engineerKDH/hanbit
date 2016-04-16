@@ -17,6 +17,8 @@ public class GradeMain {
 		name = scanner.next();
 		total = grade.getTotal(scanner.nextInt(), scanner.nextInt(), scanner.nextInt());
 
+		
+		
 		System.out.println(name + "님의 총점은 " + total + " 점이고, 평균은 " + grade.getAvg(total) + " 점이다.");
 	}
 }
